@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# IDEs / editors
+.idea/
+*.iml
+.vscode/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints
+# Uncomment the next line to ignore notebook files themselves
+# *.ipynb
+
+# macOS
+.DS_Store
+
+# Environment / credentials
+.env
+.env.*
+secrets.json
+credentials.json
+
+# Data files (move large/raw data into a data/ folder and keep it out of VCS)
+data/
+*.csv
+*.xlsx
+*.h5
+*.npz
+
+# Model artifacts
+*.joblib
+*.pt
+*.ckpt
+models/
+
+# Logs
+*.log
+logs/
+
+# Databases
+*.sqlite3
+*.db
+
+# Misc
+coverage.xml
